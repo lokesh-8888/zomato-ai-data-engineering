@@ -1,0 +1,26 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated data and caches
+*.parquet
+
+# Logs and local artifacts
+logs/
+*.log
+
+# dbt generated files
+zomato/target/
+zomato/dbt_packages/
+zomato/logs/
+
+# OS and editor files
+.DS_Store
+.vscode/
